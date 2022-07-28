@@ -1,0 +1,19 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Niks super pro adventure", "BloodTheme")
+local Tab = Window:NewTab("haks xd")
+local Section = Tab:NewSection("Niks HUB")
+Section:NewButton("Bitch Boy", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/MainGui.lua"))()
+
+end)
+Section:NewButton("YBA SUCKS ASS", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
+
+end)
+Section:NewButton("YBA cuz yes", "", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/NukeVsCity/hackscript123/main/gui")()
+
+end)
+Section:NewButton("Kolgie GUI", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
+end)
